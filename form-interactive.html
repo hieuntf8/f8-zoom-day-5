@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <a href="/" class="logo"> LOGO </a>
+                    <nav class="navbar">
+                        <ul class="navbar-list">
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar-link">Home</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar-link">Services</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar-link">About us</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#!" class="navbar-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="contact-form">
+                <h1 class="contact-heading">Register</h1>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label class="form-block" for="username">Display Name</label>
+                        <input
+                            class="form-input"
+                            type="text"
+                            name=""
+                            id="username"
+                            class="form-input"
+                            placeholder="Username"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-block" for="email">Email</label>
+                        <input class="form-input" type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-block" for="phone">Number Phone</label>
+                        <input class="form-input" type="text" name="phone" id="phone" placeholder="Phone" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-block" for="password">Password</label>
+                        <input
+                            class="form-input"
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-block" for="confirm-password">Confirm Password</label>
+                        <input
+                            class="form-input"
+                            type="password"
+                            name="password"
+                            id="confirm-password"
+                            placeholder="Conform password"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-block form-gender">Gender</label>
+                        <input type="radio" name="gender" id="male" />
+                        <label for="male" class="nam">Male</label>
+
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">Female</label>
+
+                        <input type="radio" name="gender" id="other" />
+                        <label for="other">Other</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-block" for="birthday">Date of Birth</label>
+                        <input class="form-input" type="date" name="birthday" id="bỉrthday" />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-block" for="address">Address</label>
+                        <input class="form-input" type="text" name="address" id="address" placeholder="Address ..." />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="avatar"> <img src="./assets/img/avatar.png" alt="" class="form-avatar" /></label>
+                        <input type="file" name="avatar" id="avatar" class="form-input" hidden />
+                        <label for="avatar" class="form-block avatar-label">Profile Picture</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-block">Communication Preferences</label>
+
+                        <label class="form-check">
+                            <input type="checkbox" name="" id="" />
+                            Subscribe to Newsletter
+                        </label>
+                        <label class="form-check">
+                            <input type="checkbox" name="" id="" />
+                            Receive Promotional Emails
+                        </label>
+                        <label class="form-check">
+                            <input type="checkbox" name="" id="" />
+                            Get Product Updates
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="form-submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
